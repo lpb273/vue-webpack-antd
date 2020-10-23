@@ -1,11 +1,6 @@
 <template>
   <div class="demo">
     tab1
-    <img
-      :src="img"
-      alt=""
-      srcset=""
-    >
   </div>
 </template>
 

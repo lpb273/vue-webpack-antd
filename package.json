@@ -51,6 +51,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@babel/runtime": "^7.12.1",
+    "ant-design-vue": "^1.6.5",
     "axios": "^0.20.0",
     "vue": "^2.6.12",
     "vue-router": "^3.4.7",

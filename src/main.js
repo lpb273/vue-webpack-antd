@@ -1,16 +1,20 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
+// import Antd from 'ant-design-vue';
 
 // import axios from './http/interceptors';
 
+import 'ant-design-vue/dist/antd.css';
 import './style/reset.css';
 import './style/index.scss';
 import './style/index.css';
 
-import add from '@/utils/index';
+import { Button } from 'ant-design-vue';
 
-add();
+// Vue.use(Antd);
+
+Vue.use(Button);
 
 Vue.config.productionTip = false;
 // Vue.prototype.$http = axios;
